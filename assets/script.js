@@ -14,20 +14,19 @@ const slides = [
     }
 ]
 
-// Sélectionnez l'élément HTML avec la classe "arrow_left" et stockez-le dans la variable "preview"
+// Sélectionne l'élément HTML avec la classe "arrow_left" et le stocke dans la variable "preview"
 const preview = document.querySelector('.arrow_left');
-// Sélectionnez l'élément HTML avec la classe "arrow_right" et stockez-le dans la variable "next"
+// Sélectionne l'élément HTML avec la classe "arrow_right" et le stocke dans la variable "next"
 const next = document.querySelector('.arrow_right');
 
 // Déclaration d'une variable pour stocker le nombre total d'image
 const slidesCount = slides.length;
 
-// Chemin des images
+// Chemin vers les images
 const slidePath = './assets/images/slideshow/';
 
 // Index actuel du slide
 let current = 0;
-
 
 // Fonction pour mettre à jour les slides
 function updateSlides() {
